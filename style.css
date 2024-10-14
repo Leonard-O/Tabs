@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    /* background: gray; */
+    padding: 2rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.tabs>p:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.tab {
+    text-align: center;
+    color: #fff;
+    background: black;
+    padding: 2rem;
+    border-radius: 1rem;
+    /* display: none; */
+}
+
+.first-tab-content {
+    display: block;
+}
+
+.second-tab-content {
+    display: none;
+}
+
+.third-tab-content {
+    display: none;
+}
+
+.fourth-tab-content {
+    display: none;
+}
+
+.fifth-tab-content {
+    display: none;
+}
+
+
+/* ,
+.second-tab-content,
+.third-tab-content,
+.fourth-tab-content,
+.fifth-tab-content */
